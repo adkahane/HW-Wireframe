@@ -1,0 +1,92 @@
+* {
+	box-sizing: border-box;
+	text-align: center;
+}
+
+body {
+	background-color: grey;
+	color: grey;
+}
+
+header {
+	margin: 10px 150px 10px 150px;
+	height: 100px;
+	width: 950px;
+	padding: 25px;
+	background-color: white;
+
+}
+
+nav {
+	margin: 10px 150px 10px 150px;
+	height: 100px;
+	width: 950px;
+	padding: 25px;
+	background-color: white;
+}
+
+.section {
+	float: left;
+	margin: 20px 0px 20px 150px;
+	height: 250px;
+	width: 550px;
+	background-color: white;
+	color: grey;
+	/*overflow: auto;*/
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+.article {
+	/*float: left;*/
+	margin: 10px 0 10px 10px;
+	height: 190px;
+	width: 530px;
+	padding: 10px 0;
+	background-color: grey;
+	color: white;
+}
+
+.hBox {
+	font-weight: bold;
+	font-size: 18px;
+	/*float: left;*/
+	background-color: white;
+	color: grey;
+	height: 50px;
+	width: 490px;
+	padding: 2px 0;
+	margin: 10px 20px;
+
+}
+
+.pBox {
+	/*float: left;*/
+	background-color: white;
+	color: grey;
+	height: 50px;
+	width: 490px;
+	padding: 2px 0;
+	margin: 10px 20px;
+
+}
+
+.aside {
+	float: right;
+	background-color: white;
+	color: grey;
+	height: 250px;
+	width: 380px;
+	margin: 20px 150px 10px 0;
+}
+
+footer {
+	float: left;
+	margin: 10px 150px;
+	height: 100px;
+	width: 950px;
+	padding: 25px;
+	background-color: white;
+}
